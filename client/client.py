@@ -1,31 +1,10 @@
 '''
-it takes 4 hours to charge the car from 20->80%
-it can not charge at 11, 15-19, it exceeds 11kw
-if i want the charge when its under 80cent a hour i need to charge beetween 22-23(23:59?) and 01-04 (04:59?)
 
-make 3 buttons,
+make 4 buttons,
 charge ->80%
 charge under 11kW
 charge under 80 cent/hour
-
-
-NE not existence
-
-BESS
-
-amount of power that you need 
-
-energy price convert to sek /2000 to get right
-
-Pgrid(t) * Ecost(t)
-
-n4*g4 = cost
-
-summer day
-
-1000*howbig(40)*effecenicy/(0,23) pv production
-
-T1-T24
+charge under 11kw and 80 cent/hour
 
 
 short explain 1-2 slides max ,
@@ -34,13 +13,6 @@ max power
 located in gbg
 energy price
 
-Mostafa case study
-House
-SE3
-Student, away from T7 and gets home at T14
-74% and 39%
-
-
 
 charging_power=7.4
 max load = 11
@@ -48,12 +20,6 @@ max load = 11
 ,12 kwh / minute (second)
 but also the baseload?
 
-HOURS THAT IS OK TO CHARGE
-baseload under 3,6
-00 01 02 03 04 14 21 22 23
-
-energyprice, startas när elpriset är som lägst
-22 är det som lägst
 
 I dont understand the current baseload in the server, it adds the charger power / seconds in a hour
 should it not just add the charging power to the baseload ? so if it charges when the baseload is 4 the baseload is 11.4 ?

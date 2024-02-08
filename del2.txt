@@ -1,0 +1,43 @@
+
+Del 2:
+Beräkna den utvecklade effekten P i resistansen R2 i Figur 3
+
+U0=12V, 
+R1=20 Ohm, 
+R2=4 Ohm 
+
+Detta går att göra på två sätt, detta är det simplaste:
+
+Svar:
+Kombinerat med ohms lag:
+P = U²/R 
+12²/R 
+12² = 144
+144/4 = 36
+så effektnen i r2 är 36W
+
+Men det går även att göra genom att räkna ut strömmen i :
+
+i = i1+i2 (nummer lower)
+
+ohms lag
+i1 = 12v/20 ohm = 0,6A / 600mA
+i2 = 12v/4 ohm = 3A / 6000mA
+kirchhoffs strömlag
+
+i1 = 0,6A
+i2 = 3A 
+i = 3.6 A  ( i = 0,6A + 3A )
+
+WattsLag: (effektlagen) om man har räknat ut I (som man kan med kirchhoffs strömlag)
+P=U*I
+P=12*3
+P=36W
+
+
+
+
+
+
+
+
